@@ -30,8 +30,6 @@ export async function GET(req: NextRequest) {
   return new Response(response.body, {
     status: response.status,
     headers: {
-      'Access-Control-Allow-Origin': API_URL,
-      Vary: 'Origin',
       'Access-Control-Allow-Headers': 'Content-Type',
     },
   });
