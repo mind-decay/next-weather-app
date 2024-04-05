@@ -1,0 +1,28 @@
+.weatherInfoList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  width: 100%;
+}
+
+.weatherInfoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & > span {
+    &:first-child {
+      color: var(--color-text-placeholder);
+    }
+  }
+}
+
+.weatherInfoItemInfo {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+.weatherInfoItemIcon {
+  display: flex;
+}

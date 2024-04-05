@@ -1,0 +1,26 @@
+.headerWrapper {
+  position: relative;
+  z-index: var(--z-header);
+  display: flex;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3.5rem 11.5rem 0;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1280px) {
+    padding: 2rem;
+  }
+}
+
+.headerLogo {
+  display: flex;
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-regular);
+  color: var(--color-primary);
+}

@@ -1,0 +1,31 @@
+.titleH1 {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-regular);
+  text-align: inherit;
+  color: var(--color-primary);
+}
+
+.titleH2 {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-regular);
+  color: var(--color-primary);
+  text-align: inherit;
+}
+
+.titleH3 {
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-regular);
+  color: var(--color-primary);
+  text-align: inherit;
+}
+
+.titleH4 {
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-regular);
+  color: var(--color-primary);
+  text-align: inherit;
+}

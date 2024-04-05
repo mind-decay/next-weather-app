@@ -1,0 +1,27 @@
+.loaderWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary);
+}
+
+@keyframes l8 {
+  100% {
+    background-size: 100% 115%;
+  }
+}
+
+.loader {
+  width: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  -webkit-mask: linear-gradient(0deg, hsl(0, 0%, 0%) 55%, transparent 0) bottom/100% 18.18%;
+  background: linear-gradient(hsl(210, 49%, 27%) 0 0) bottom/100% 0% no-repeat hsl(0, 0%, 87%);
+  animation: l8 2s infinite steps(7);
+}

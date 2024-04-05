@@ -1,0 +1,32 @@
+.weather {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-top: auto;
+
+  @media screen and (max-width: 1280px) {
+    margin-top: 12rem;
+  }
+
+  @media screen and (max-width: 640px) {
+    margin-top: 7rem;
+  }
+}
+
+.weatherInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.weatherLocation {
+  font-size: var(--font-size-location);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-regular);
+  color: var(--color-primary);
+}
+
+.weatherIcon {
+  width: 70px;
+  height: 70px;
+}

@@ -1,0 +1,37 @@
+.forecastList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  width: 100%;
+}
+
+.forecastItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forecastItemInfo {
+  display: flex;
+  align-items: center;
+  column-gap: 3.5rem;
+}
+
+.forecastItemIcon {
+  display: flex;
+  width: 48px;
+  height: auto;
+}
+
+.forecastItemData {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+
+  span {
+    &:last-child {
+      text-transform: capitalize;
+      color: var(--color-text-placeholder);
+    }
+  }
+}
