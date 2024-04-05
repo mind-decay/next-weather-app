@@ -6,8 +6,8 @@ export const serverEndpoints = {
 };
 
 export const endpoints = {
-  weather: () => 'weather',
-  forecast: () => 'forecast',
+  weather: () => 'api/weather',
+  forecast: () => 'api/forecast',
 
-  photos: () => 'photos',
+  photos: () => 'api/photos',
 };

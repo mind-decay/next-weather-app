@@ -1,6 +1,6 @@
 import { ENV } from './lib/env';
 
-export const API_URL = ENV.API_ULR;
+export const API_URL = ENV.API_URL;
 
 export const UNSPLASH_API = 'https://api.unsplash.com';
 
