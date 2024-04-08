@@ -4,7 +4,7 @@ import '@testing-library/jest-dom';
 import { WeatherInfoList } from './WeatherInfoList';
 
 test('should render WeatherInfoList component', () => {
-  const { getByRole, queryAllByRole } = render(<WeatherInfoList city='London' />);
+  const { getByRole, queryAllByRole } = render(<WeatherInfoList city="London" />);
 
   const list = getByRole('list');
   const listItem = queryAllByRole('listitem')[0];
